@@ -47,7 +47,7 @@ def random_choice():
    rand_num = randrange(0,3)
    return options[rand_num]
 
-#returns -1 for user, 1 for computer, 0 for tie
+#returns -1 for user, 1 for computer, 0 for tie, 2 for invalid input
 def get_results(choice1, choice2):
    choice1 = choice1.lower()
    if (choice1.lower() == choice2):
